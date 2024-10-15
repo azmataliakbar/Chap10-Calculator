@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 20px rgb(194, 193, 193);
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 4px 4px 20px rgb(121, 120, 120);
+}
+
+h5 {
+  color: rgb(174, 172, 172);
+  text-align: center;
+  text-shadow: 4px 4px 20px rgb(121, 120, 120);
+}
+
+.num1, .num2, .operator, .calculate, #operator {
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 4px 4px 20px rgb(121, 120, 120);
+}
+
+#num1 {
+  color: red;
+  font-weight: bold;
+  width: 160px;
+  border-radius: 10px;
+  border: 3px solid rgb(184, 182, 182);
+}
+#num2 {
+  color: rgb(4, 192, 4);
+  font-weight: bold;
+  width: 135px;
+  border-radius: 10px;
+  border: 3px solid rgb(184, 182, 182);
+}
+#operator {
+  
+  font-weight: bolder;
+  width: 225px;
+  border-radius: 10px;
+  border: 3px solid rgb(184, 182, 182);
+}
+
+label, input, select, button {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+input, select {
+  padding: 8px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background-color: #05ce0c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  color: blue;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+}
